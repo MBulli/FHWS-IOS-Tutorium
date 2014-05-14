@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288CB69A191838B30007186E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288CB699191838B30007186E /* Foundation.framework */; };
+		288CB69C191838B30007186E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288CB69B191838B30007186E /* CoreGraphics.framework */; };
+		288CB69E191838B30007186E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288CB69D191838B30007186E /* UIKit.framework */; };
+		288CB6A4191838B30007186E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 288CB6A2191838B30007186E /* InfoPlist.strings */; };
+		288CB6A6191838B30007186E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 288CB6A5191838B30007186E /* main.m */; };
+		288CB6AA191838B30007186E /* MBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288CB6A9191838B30007186E /* MBAppDelegate.m */; };
+		288CB6AD191838B30007186E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288CB6AB191838B30007186E /* Main_iPhone.storyboard */; };
+		288CB6B0191838B30007186E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288CB6AE191838B30007186E /* Main_iPad.storyboard */; };
+		288CB6B3191838B30007186E /* MBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 288CB6B2191838B30007186E /* MBViewController.m */; };
+		288CB6B5191838B30007186E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288CB6B4191838B30007186E /* Images.xcassets */; };
+		288CB6BC191838B30007186E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288CB6BB191838B30007186E /* XCTest.framework */; };
+		288CB6BD191838B30007186E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288CB699191838B30007186E /* Foundation.framework */; };
+		288CB6BE191838B30007186E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288CB69D191838B30007186E /* UIKit.framework */; };
+		288CB6C6191838B30007186E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 288CB6C4191838B30007186E /* InfoPlist.strings */; };
+		288CB6C8191838B30007186E /* PeriodicTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 288CB6C7191838B30007186E /* PeriodicTableTests.m */; };
+		288CB6D2191838CF0007186E /* elements.json in Resources */ = {isa = PBXBuildFile; fileRef = 288CB6D1191838CF0007186E /* elements.json */; };
+		288CB6D519183A420007186E /* MBElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 288CB6D419183A420007186E /* MBElement.m */; };
+		28D8B9FD192375E300B66D5F /* iconmonstr-email-4-icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 28D8B9FC192375E300B66D5F /* iconmonstr-email-4-icon-256.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		288CB6BF191838B30007186E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288CB68E191838B30007186E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288CB695191838B30007186E;
+			remoteInfo = PeriodicTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		288CB696191838B30007186E /* PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288CB699191838B30007186E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		288CB69B191838B30007186E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		288CB69D191838B30007186E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288CB6A1191838B30007186E /* PeriodicTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeriodicTable-Info.plist"; sourceTree = "<group>"; };
+		288CB6A3191838B30007186E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		288CB6A5191838B30007186E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		288CB6A7191838B30007186E /* PeriodicTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeriodicTable-Prefix.pch"; sourceTree = "<group>"; };
+		288CB6A8191838B30007186E /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
+		288CB6A9191838B30007186E /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
+		288CB6AC191838B30007186E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		288CB6AF191838B30007186E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		288CB6B1191838B30007186E /* MBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBViewController.h; sourceTree = "<group>"; };
+		288CB6B2191838B30007186E /* MBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBViewController.m; sourceTree = "<group>"; };
+		288CB6B4191838B30007186E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		288CB6BA191838B30007186E /* PeriodicTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriodicTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		288CB6BB191838B30007186E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		288CB6C3191838B30007186E /* PeriodicTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeriodicTableTests-Info.plist"; sourceTree = "<group>"; };
+		288CB6C5191838B30007186E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		288CB6C7191838B30007186E /* PeriodicTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeriodicTableTests.m; sourceTree = "<group>"; };
+		288CB6D1191838CF0007186E /* elements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = elements.json; sourceTree = "<group>"; };
+		288CB6D319183A420007186E /* MBElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBElement.h; sourceTree = "<group>"; };
+		288CB6D419183A420007186E /* MBElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBElement.m; sourceTree = "<group>"; };
+		28D8B9FC192375E300B66D5F /* iconmonstr-email-4-icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-email-4-icon-256.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		288CB693191838B30007186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288CB69C191838B30007186E /* CoreGraphics.framework in Frameworks */,
+				288CB69E191838B30007186E /* UIKit.framework in Frameworks */,
+				288CB69A191838B30007186E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288CB6B7191838B30007186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288CB6BC191838B30007186E /* XCTest.framework in Frameworks */,
+				288CB6BE191838B30007186E /* UIKit.framework in Frameworks */,
+				288CB6BD191838B30007186E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		288CB68D191838B30007186E = {
+			isa = PBXGroup;
+			children = (
+				288CB69F191838B30007186E /* PeriodicTable */,
+				288CB6C1191838B30007186E /* PeriodicTableTests */,
+				288CB698191838B30007186E /* Frameworks */,
+				288CB697191838B30007186E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		288CB697191838B30007186E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288CB696191838B30007186E /* PeriodicTable.app */,
+				288CB6BA191838B30007186E /* PeriodicTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		288CB698191838B30007186E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				288CB699191838B30007186E /* Foundation.framework */,
+				288CB69B191838B30007186E /* CoreGraphics.framework */,
+				288CB69D191838B30007186E /* UIKit.framework */,
+				288CB6BB191838B30007186E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		288CB69F191838B30007186E /* PeriodicTable */ = {
+			isa = PBXGroup;
+			children = (
+				28D8B9FC192375E300B66D5F /* iconmonstr-email-4-icon-256.png */,
+				288CB6A8191838B30007186E /* MBAppDelegate.h */,
+				288CB6A9191838B30007186E /* MBAppDelegate.m */,
+				288CB6AB191838B30007186E /* Main_iPhone.storyboard */,
+				288CB6AE191838B30007186E /* Main_iPad.storyboard */,
+				288CB6B1191838B30007186E /* MBViewController.h */,
+				288CB6B2191838B30007186E /* MBViewController.m */,
+				288CB6B4191838B30007186E /* Images.xcassets */,
+				288CB6A0191838B30007186E /* Supporting Files */,
+				288CB6D1191838CF0007186E /* elements.json */,
+				288CB6D319183A420007186E /* MBElement.h */,
+				288CB6D419183A420007186E /* MBElement.m */,
+			);
+			path = PeriodicTable;
+			sourceTree = "<group>";
+		};
+		288CB6A0191838B30007186E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				288CB6A1191838B30007186E /* PeriodicTable-Info.plist */,
+				288CB6A2191838B30007186E /* InfoPlist.strings */,
+				288CB6A5191838B30007186E /* main.m */,
+				288CB6A7191838B30007186E /* PeriodicTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		288CB6C1191838B30007186E /* PeriodicTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				288CB6C7191838B30007186E /* PeriodicTableTests.m */,
+				288CB6C2191838B30007186E /* Supporting Files */,
+			);
+			path = PeriodicTableTests;
+			sourceTree = "<group>";
+		};
+		288CB6C2191838B30007186E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				288CB6C3191838B30007186E /* PeriodicTableTests-Info.plist */,
+				288CB6C4191838B30007186E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288CB695191838B30007186E /* PeriodicTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288CB6CB191838B30007186E /* Build configuration list for PBXNativeTarget "PeriodicTable" */;
+			buildPhases = (
+				288CB692191838B30007186E /* Sources */,
+				288CB693191838B30007186E /* Frameworks */,
+				288CB694191838B30007186E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeriodicTable;
+			productName = PeriodicTable;
+			productReference = 288CB696191838B30007186E /* PeriodicTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		288CB6B9191838B30007186E /* PeriodicTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288CB6CE191838B30007186E /* Build configuration list for PBXNativeTarget "PeriodicTableTests" */;
+			buildPhases = (
+				288CB6B6191838B30007186E /* Sources */,
+				288CB6B7191838B30007186E /* Frameworks */,
+				288CB6B8191838B30007186E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288CB6C0191838B30007186E /* PBXTargetDependency */,
+			);
+			name = PeriodicTableTests;
+			productName = PeriodicTableTests;
+			productReference = 288CB6BA191838B30007186E /* PeriodicTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		288CB68E191838B30007186E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MBulli;
+				TargetAttributes = {
+					288CB6B9191838B30007186E = {
+						TestTargetID = 288CB695191838B30007186E;
+					};
+				};
+			};
+			buildConfigurationList = 288CB691191838B30007186E /* Build configuration list for PBXProject "PeriodicTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 288CB68D191838B30007186E;
+			productRefGroup = 288CB697191838B30007186E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288CB695191838B30007186E /* PeriodicTable */,
+				288CB6B9191838B30007186E /* PeriodicTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		288CB694191838B30007186E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288CB6B0191838B30007186E /* Main_iPad.storyboard in Resources */,
+				288CB6B5191838B30007186E /* Images.xcassets in Resources */,
+				28D8B9FD192375E300B66D5F /* iconmonstr-email-4-icon-256.png in Resources */,
+				288CB6AD191838B30007186E /* Main_iPhone.storyboard in Resources */,
+				288CB6D2191838CF0007186E /* elements.json in Resources */,
+				288CB6A4191838B30007186E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288CB6B8191838B30007186E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288CB6C6191838B30007186E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		288CB692191838B30007186E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288CB6A6191838B30007186E /* main.m in Sources */,
+				288CB6B3191838B30007186E /* MBViewController.m in Sources */,
+				288CB6AA191838B30007186E /* MBAppDelegate.m in Sources */,
+				288CB6D519183A420007186E /* MBElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288CB6B6191838B30007186E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288CB6C8191838B30007186E /* PeriodicTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		288CB6C0191838B30007186E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288CB695191838B30007186E /* PeriodicTable */;
+			targetProxy = 288CB6BF191838B30007186E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		288CB6A2191838B30007186E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288CB6A3191838B30007186E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		288CB6AB191838B30007186E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288CB6AC191838B30007186E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		288CB6AE191838B30007186E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288CB6AF191838B30007186E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		288CB6C4191838B30007186E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288CB6C5191838B30007186E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		288CB6C9191838B30007186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		288CB6CA191838B30007186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		288CB6CC191838B30007186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeriodicTable/PeriodicTable-Prefix.pch";
+				INFOPLIST_FILE = "PeriodicTable/PeriodicTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		288CB6CD191838B30007186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeriodicTable/PeriodicTable-Prefix.pch";
+				INFOPLIST_FILE = "PeriodicTable/PeriodicTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		288CB6CF191838B30007186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeriodicTable.app/PeriodicTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeriodicTable/PeriodicTable-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PeriodicTableTests/PeriodicTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		288CB6D0191838B30007186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeriodicTable.app/PeriodicTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeriodicTable/PeriodicTable-Prefix.pch";
+				INFOPLIST_FILE = "PeriodicTableTests/PeriodicTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		288CB691191838B30007186E /* Build configuration list for PBXProject "PeriodicTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288CB6C9191838B30007186E /* Debug */,
+				288CB6CA191838B30007186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288CB6CB191838B30007186E /* Build configuration list for PBXNativeTarget "PeriodicTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288CB6CC191838B30007186E /* Debug */,
+				288CB6CD191838B30007186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288CB6CE191838B30007186E /* Build configuration list for PBXNativeTarget "PeriodicTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288CB6CF191838B30007186E /* Debug */,
+				288CB6D0191838B30007186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 288CB68E191838B30007186E /* Project object */;
+}
